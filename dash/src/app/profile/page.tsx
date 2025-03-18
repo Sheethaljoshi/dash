@@ -10,7 +10,7 @@ import AccreditationCard from "./components/accredition-card"
 export default function DoctorDashboard() {
   return (
     <div className="flex min-h-screen overflow-hidden">
-      <div className="">
+      <div className="p-0">
       <DoctorSidebar/>  
       </div>
       <div className="w-full">
