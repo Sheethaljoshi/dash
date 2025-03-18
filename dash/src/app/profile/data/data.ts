@@ -21,7 +21,7 @@ export const doctors = [
       {
         role: "Senior Consultant - Cardiology",
         hospital: "Fortis Hospital, Mumbai",
-        duration: "2018 - 2021",
+        duration: "2018 - 2022",
       },
     ],
   },
