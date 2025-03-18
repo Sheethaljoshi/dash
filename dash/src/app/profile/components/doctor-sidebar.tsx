@@ -3,13 +3,18 @@
 import { Sidebar, SidebarContent, SidebarProvider } from "@/components/ui/sidebar"
 import { useEffect, useState } from "react"
 import Image from "next/image";
-import sidebar from "../assets/sidebar.png";
+import home from "../assets/home.png";
 import back from "../assets/back.png";
+import calendar from "../assets/calendar.png";
+import profile2 from "../assets/profile2.png";
+import document from "../assets/document.png";
+import settings from "../assets/settings.png";
+import exit from "../assets/exit.png";
+
 
 export default function DoctorSidebar() {
   const [mounted, setMounted] = useState(false)
 
-  // Prevent hydration mismatch
   useEffect(() => {
     setMounted(true)
   }, [])
@@ -23,8 +28,15 @@ export default function DoctorSidebar() {
           <div className="mt-6 w-8 mx-auto">
           <Image src={back} alt="logo" width={32} height={32} />
           </div>
-          <div className="mt-48 w-8 mx-auto">
-          <Image src={sidebar} alt="sidebar" width={32} height={32} />
+          <div className="mt-48 w-8 mx-auto flex flex-col gap-5 ">
+          <Image src={home} alt="home" width={32} height={32} />
+          <Image src={calendar} alt="calendar" width={32} height={32} />
+          <Image src={profile2} alt="profile2" width={32} height={32} />
+          <Image src={document} alt="document" width={32} height={32} />
+          <Image src={settings} alt="settings" width={32} height={32} />
+          </div>
+          <div className="mt-32">
+          <Image src={exit} alt="exit" width={32} height={32} />
           </div>
         </SidebarContent>
       </Sidebar>

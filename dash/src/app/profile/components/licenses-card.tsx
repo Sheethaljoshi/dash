@@ -17,6 +17,38 @@ export default function LicensesCard({ className }: LicensesCardProps) {
         <Image src={add} alt="logo" width={40} height={40} />
         </div>
       </CardContent>
+      <CardContent>
+        <div className="flex flex-col gap-7 mb-2">
+          <div className="bg-gray-200 p-2 rounded-xl flex flex-col gap-5">
+          <div className="flex flex-col">
+                <span className="text-xs font-light text-gray-600">Qualification:</span>
+                <span className="text-sm">MBBS</span>
+              </div>
+              <div className="flex flex-col">
+                <span className="text-xs font-light text-gray-600">License Number:</span>
+                <span className="text-sm">09-382AP9374</span>
+              </div>
+              <div className="flex flex-col">
+                <span className="text-xs font-light text-gray-600">Registration Number</span>
+                <span className="text-sm">164532</span>
+              </div>
+          </div>
+          <div className="bg-gray-200 p-2 rounded-xl flex flex-col gap-5">
+          <div className="flex flex-col">
+                <span className="text-xs font-light text-gray-600">Qualification:</span>
+                <span className="text-sm">MBBS</span>
+              </div>
+              <div className="flex flex-col">
+                <span className="text-xs font-light text-gray-600">License Number:</span>
+                <span className="text-sm">09-382AP9374</span>
+              </div>
+              <div className="flex flex-col">
+                <span className="text-xs font-light text-gray-600">Registration Number</span>
+                <span className="text-sm">164532</span>
+              </div>
+          </div>
+        </div>
+      </CardContent>
     </Card>
   )
 }
