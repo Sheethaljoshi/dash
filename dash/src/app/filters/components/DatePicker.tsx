@@ -20,7 +20,7 @@ export default function DatePicker({ onAccess }: DatePickerProps) {
   };
 
   return (
-    <div className="mt-4">
+    <div className="mt-4 ">
       <button
         className={`w-full px-4 py-2 bg-gray-200 rounded-lg flex items-center justify-between ${
           isDropdownOpen ? 'text-black' : 'text-gray-500'
