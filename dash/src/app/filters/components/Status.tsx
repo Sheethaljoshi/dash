@@ -31,8 +31,8 @@ export default function Status({ onAccess }: StatusProps) {
             src={status} 
             alt="logo" 
             width={24} 
-            height={24} 
-            className={isDropdownOpen ? 'opacity-100' : 'opacity-50'}
+            height={24}  
+            className={isDropdownOpen ? 'opacity-100' : 'opacity-50 '}
           />
           <span>By Status</span>
         </div>
